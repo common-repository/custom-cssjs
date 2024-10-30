@@ -1,0 +1,16 @@
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+* html .clearfix { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.biw_textarea {
+  width: 95%;
+  height: 200px;
+  display: block;
+  margin-bottom: 20px;
+}
